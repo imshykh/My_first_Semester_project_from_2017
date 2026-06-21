@@ -1,0 +1,503 @@
+<!doctype html>
+<html>
+<head>
+	
+	<!--Meta-->
+	<meta charset="UTF-8">
+	<meta name="description" content="Armani's Watches">
+	<meta name="keywords" content="Armani,Watch,$25,000,Luxury,best Watch,Analog Watch,Wrist watch">
+	<meta name="author" content="Muzammil-Shaikh">
+	<!--<meta http-equiv="refresh" content="30">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Aura-Watches--Armani's-Watches</title>
+	
+<!--_______________________________________________________________________________________________________________________________________________________-->
+	<!--Links-->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/Style.css" rel="stylesheet" type="text/css">
+	<style>
+		body, html {
+			height: 100%;
+		}
+		::-webkit-scrollbar { 
+			display: none; 
+		}
+		.parallax {
+			/* The image used */
+			background-image: url('iages/45-degree-fabric-dark.png');
+			background-color: white;
+			/* Full height */
+			height: 100%;
+			/* Create the parallax scrolling effect */
+			background-attachment: fixed;	
+			background-position: center;
+		}
+		.parallax img{
+			left: 50%;
+			width: 800px;
+			margin-left:-400px;
+			top: 50%;
+			margin-top:-250px;
+			opacity: 1;
+			animation: delay 5s;
+		}
+		@keyframes delay{
+			0%{opacity: 0}
+			100%{opacity: 1}
+		}
+		.btn-main{
+			position: absolute;
+			right: 30%;
+			bottom: 30%;
+			animation: delay 3s;
+		}
+		.main1{
+			height:42%;
+			position: relative;
+			background-image: url(images/45-degree-fabric-dark.png);
+			background-color: cyan;
+			overflow: hidden;
+			color: ghostwhite;
+			animation-name: center;
+			animation-duration: 2.5s;
+			animation-delay: 0.5s;
+		}
+			@keyframes center {
+			0%   {opacity: 1;}
+			70% {opacity: 0;}
+			100% {opacity: 1;}
+		}
+		.carousel-indicators li {
+			display: inline-block;
+			width: 40px;
+			height: 8px;
+			margin: 1px;
+			text-indent: -999px;
+			cursor: pointer;
+			border: 2px solid #000;
+			background-color: #fff;
+			border-radius: 10px;
+		}
+		.carousel-indicators .active {
+			width: 40px;
+			height: 10px;
+			margin: 0px;
+			background-color: #000;
+			border: 2px solid #fff;
+		}
+		.btn-dark{
+			background-color: gray;
+			color: white;
+		}
+		.btn-dark:hover{
+			background-color: #333;
+			color: white
+		}
+		.parallax1 {
+			/* The image used */
+			background-image: url(images/Spac.png);
+			/* Full height */
+			height: 50%;
+			width: auto;
+			/* Create the parallax scrolling effect */
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.backhead{
+			background-color:transparent;
+			padding: 50px 0px;
+		}
+		.bt{
+			border-top: 1px dashed #333;
+		}
+		.br{
+			border-right: 1px dashed #333;
+		}
+		.bb{
+			border-bottom: 1px dashed #333;
+		}
+		.bl{
+			border-left: 1px dashed #333;
+		}
+		.bn{
+			border: none;
+		}
+		.p1{
+			padding: 0px 10px 20px 10px;
+		}
+		.p2{
+			padding: 20px 10px 20px 10px;
+		}
+		.o{
+			opacity: 0.6;
+			transition-duration: 1s;
+		}
+		.o:hover{
+			opacity: 1;
+		}
+		.pn{
+			padding: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div id="head"></div>
+	<div class="parallax hidden-xs">
+		<img src="images/Logomain.png" class="col-xs-offset-3 col-sm-6 top80 img-responsive" alt="">
+	</div>
+	<div class="btn-group btn-main hidden-xs btn-group-lg">
+		<hr style="border:5px groove #FFFFFF ;margin: 0">
+		<button ><a href="#top" class="btn btn-default">Most Rated</a></button>
+		<button><a href="#top" class="btn btn-dark">Featured</a></button>
+		<button><a href="#top" class="btn btn-default">Most Viewed</a></button>
+	</div>
+	<form id="all">
+		<div id="test">loading</div>
+	</form>
+	<div class="container-fluid" style="position: relative;margin: 0;padding: 0">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+		<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+			</ol>
+
+		<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+
+				<div class="item active">
+					<img src="images/Slider/1.jpg" alt="Los Angeles" style="width:100%;">
+				</div>
+
+				<div class="item">
+					<img src="images/Slider/2.jpg" alt="Chicago" style="width:100%;">
+				</div>
+
+				<div class="item">
+					<img src="images/Slider/3.jpg" alt="New York" style="width:100%;">
+				</div>
+
+				<div class="item">
+					<img src="images/Slider/4.jpg" alt="New York" style="width:100%;">
+				</div>
+
+			</div>
+
+		<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" style="font-size: 100px "></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" style="font-size: 100px "></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	<div class="parallax1 hidden-xs"></div>
+	<div class="container-fluid" style="background-color: white;padding-bottom: 80px;">
+		<div class="backhead hidden-xs">
+			<center>
+				<h1 id="top">HOT THIS WEEK</h1>
+			</center>
+		</div>
+		<div class="container hidden-xs">
+			<ul class="nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#rated">Most Rated</a></li>
+				<li><a data-toggle="tab" href="#featured">Featured</a></li>
+				<li><a data-toggle="tab" href="#visited">Most Visited</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div id="rated" class="tab-pane fade in active">
+					<div class="col-sm-3 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Womens Collection/Dkny/08A.jpg"  class="img img-responsive img1" alt="Img1" id="img1" onMouseOver="document.getElementById('img1').src='images/Watches/Womens Collection/Dkny/08B.jpg'" onMouseOut="document.getElementById('img1').src='images/Watches/Womens Collection/Dkny/08A.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">DKNY Reade</a></h4>
+								<p class="text-center price">$132.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Mens Collection/Diesel/03A.jpg"  class="img img-responsive img1" alt="Img2" id="img2" onMouseOver="document.getElementById('img2').src='images/Watches/Mens Collection/Diesel/03B.jpg'" onMouseOut="document.getElementById('img2').src='images/Watches/Mens Collection/Diesel/03A.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">Diesel k556</a></h4>
+								<p class="text-center price">$170.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Womens Collection/Olivia Burton/01A.jpg"  class="img img-responsive img1" alt="Img3" id="img3" onMouseOver= "document.getElementById('img3').src='images/Watches/Womens Collection/Olivia Burton/01B.jpg'" onMouseOut="document.getElementById('img3').src='images/Watches/Womens Collection/Olivia Burton/01A.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">Olivia Burton</a></h4>
+								<p class="text-center price">$124.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Mens Collection/Armani/01A.jpg"  class="img img-responsive img1" alt="Img4" id="img4" onMouseOver="document.getElementById('img4').src='images/Watches/Mens Collection/Armani/01b.jpg'" onMouseOut="document.getElementById('img4').src='images/Watches/Mens Collection/Armani/01a.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">Emporio Armani</a></h4>
+								<p class="text-center price">$199.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="featured" class="tab-pane fade">
+					<div class="col-sm-3 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Mens Collection/Diesel/02A.jpg"  class="img img-responsive img1" alt="Img1" id="img5" onMouseOver="document.getElementById('img5').src='images/Watches/Mens Collection/Diesel/02b.jpg'" onMouseOut="document.getElementById('img5').src='images/Watches/Mens Collection/Diesel/02A.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">Diesel K443</a></h4>
+								<p class="text-center price">$132.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Mens Collection/Diesel/09A.jpg"  class="img img-responsive img2" alt="Img2" id="img6" onMouseOver="document.getElementById('img6').src='images/Watches/Mens Collection/Diesel/09b.jpg'" onMouseOut="document.getElementById('img6').src='images/Watches/Mens Collection/Diesel/09A.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">Diesel k556</a></h4>
+								<p class="text-center price">$170.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Womens Collection/Braun/07A.jpg"  class="img img-responsive img3" alt="Img3" id="img7" onMouseOver= "document.getElementById('img7').src='images/Watches/Womens Collection/Braun/07b.jpg'" onMouseOut="document.getElementById('img7').src='images/Watches/Womens Collection/Braun/07A.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">Olivia Burton</a></h4>
+								<p class="text-center price">$124.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Mens Collection/Armani/03A.jpg"  class="img img-responsive img4" alt="Img4" id="img8" onMouseOver="document.getElementById('img8').src='images/Watches/Mens Collection/Armani/03b.jpg'" onMouseOut="document.getElementById('img8').src='images/Watches/Mens Collection/Armani/03A.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">Emporio Armani</a></h4>
+								<p class="text-center price">$199.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="visited" class="tab-pane fade">
+					<div class="col-sm-3 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Womens Collection/Dkny/09A.jpg"  class="img img-responsive img1" alt="Img1" id="img9" onMouseOver="document.getElementById('img9').src='images/Watches/Womens Collection/Dkny/09B.jpg'" onMouseOut="document.getElementById('img9').src='images/Watches/Womens Collection/Dkny/09A.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">DKNY Reade</a></h4>
+								<p class="text-center price">$132.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Mens Collection/Diesel/04A.jpg"  class="img img-responsive img2" alt="Img2" id="img10" onMouseOver="document.getElementById('img10').src='images/Watches/Mens Collection/Diesel/04B.jpg'" onMouseOut="document.getElementById('img10').src='images/Watches/Mens Collection/Diesel/04A.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">Diesel k556</a></h4>
+								<p class="text-center price">$170.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Womens Collection/Olivia Burton/01A.jpg"  class="img img-responsive img3" alt="Img3" id="img11" onMouseOver= "document.getElementById('img11').src='images/Watches/Womens Collection/Olivia Burton/01B.jpg'" onMouseOut="document.getElementById('img11').src='images/Watches/Womens Collection/Olivia Burton/01A.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">Olivia Burton</a></h4>
+								<p class="text-center price">$124.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 top-25">
+						<div class="box">
+							<div>
+								<a href="#"><img src="images/Watches/Mens Collection/Armani/05A.jpg"  class="img img-responsive img4" alt="Img4" id="img12" onMouseOver="document.getElementById('img12').src='images/Watches/Mens Collection/Armani/05b.jpg'" onMouseOut="document.getElementById('img12').src='images/Watches/Mens Collection/Armani/05a.jpg'"></a>
+							</div>
+							<div class="top-25">
+								<h4 class="text-center"><a href="#">Emporio Armani</a></h4>
+								<p class="text-center price">$199.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="backhead">
+				<center>
+					<h1 id="brands">Popular Brands</h1>
+				</center>
+			</div>
+		<div class="container hidden-xs">
+			<div class="row">
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/1.png" class="img-responsive o p1 br bb" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/2.png" class="img-responsive o p1 br bb" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/3.png" class="img-responsive o p1 br bb" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/4.png" class="img-responsive o p1 br bb" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/5.png" class="img-responsive o p1 br bb" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/6.png" class="img-responsive o p1 bb" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/7.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/8.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/9.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/10.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/11.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/12.png" class="img-responsive o p2 bb" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/13.png" class="img-responsive o p2 br " alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/14.png" class="img-responsive o p2 br" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/15.png" class="img-responsive o p2 br" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/16.png" class="img-responsive o p2 br" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/17.png" class="img-responsive o p2 br" alt="">
+				</div>
+				<div class="col-sm-2 pn">
+					<img src="images/Brands/18.png" class="img-responsive o p2 bn" alt="">
+				</div>
+			</div>	
+		</div>
+		
+		
+		<div class="container visible-xs">
+			<div class="row">
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/1.png" class="img-responsive o p1 br bb" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/2.png" class="img-responsive o p1 br bb" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/3.png" class="img-responsive o p1 bb" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/4.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/5.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/6.png" class="img-responsive o p2 bb" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/7.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/8.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/9.png" class="img-responsive o p2 bb" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/10.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/11.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/12.png" class="img-responsive o p2 bb" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/13.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/14.png" class="img-responsive o p2 br bb" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/15.png" class="img-responsive o p2 bb" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/16.png" class="img-responsive o p2 br" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/17.png" class="img-responsive o p2 br" alt="">
+				</div>
+				<div class="col-xs-4 pn">
+					<img src="images/Brands/18.png" class="img-responsive o p2 bn" alt="">
+				</div>
+			</div>	
+		</div>
+	</div>
+	
+	<div id="foot"></div>
+<!--_______________________________________________________________________________________________________________________________________________________-->
+	<!--Scripts-->
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
