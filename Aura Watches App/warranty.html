@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+	
+	<!--Meta-->
+	<meta charset="UTF-8">
+	<meta name="description" content="Armani's Watches">
+	<meta name="keywords" content="Armani,Watch,$25,000,Luxury,best Watch,Analog Watch,Wrist watch">
+	<meta name="author" content="Muzammil-Shaikh">
+	<!--<meta http-equiv="refresh" content="30">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Warranty Exchange</title>
+	<style>
+		form{
+			border: none;
+			font-size: 30px;
+			text-align: center;
+			color: white;
+			animation-name: center;
+    		animation-duration: 0.7s;
+			animation-delay: 0.5s;
+		}
+		@keyframes center {
+			0%{}
+			10%{margin-left: 10px}
+			20%{margin-left: -10px}
+			30%{margin-left: 10px}
+			40%{margin-left: -10px}
+			50%{margin-left: 10px}
+			60%{margin-left: -10px}
+			70%{margin-left: 10px}
+			80%{margin-left: -10px}
+			90%{margin-left: 10px}
+			100%{}
+		}
+		label{
+			top: 50%;
+		}
+		::-webkit-input-placeholder {
+    		color:#111111;
+		}
+		.input{
+			border: none;
+			color: white;
+			background: rgba(255,255,255,0);
+			border-bottom: dashed;
+			text-align: center;
+			width: 100%;
+			opacity: 0.5;
+		}
+		.input:focus,.input:hover{
+			border: none;
+			color: #2876AD;
+			background: rgba(255,255,255,0);
+			border-bottom: dotted;
+			text-align: center;
+			width: 100%;
+			opacity: 1;
+		}
+		.sub,.sub>a{
+			color: green;
+			font-size: 50px;
+			border: none;
+			opacity: 1;
+		}
+		.sub:active,.sub:hover,.sub>a:hover{
+			color: darkgreen;
+			font-size: 50px;
+			border: none;
+			opacity: 1;
+		}
+		
+		.sub1,.sub1>a{
+			color: firebrick;
+			font-size: 50px;
+			border: none;
+			opacity: 1;
+		}
+		.sub1:active,.sub1:hover,.sub1>a:hover{
+			color: darkred;
+			font-size: 50px;
+			border: none;
+			opacity: 1;
+		}
+		.hideshow{
+			opacity: 1;
+			text-align: center;
+			animation-name: rotate;
+			animation-duration: 0.5s;
+			animation-delay: 0.5s;
+			animation-iteration-count: 2;
+			
+		}
+		@keyframes rotate {
+			0%   {opacity: 1;}
+			50%   {opacity: 0;}
+			100%   {opacity: 1;}
+		}
+	</style>
+
+<!--_______________________________________________________________________________________________________________________________________________________-->
+	<!--Links-->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/Style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<div id="head"></div>
+	<form id="all">
+		<div id="test">loading</div>
+	</form>
+	<div class="container top55">
+		<h1>For Warranty Exchange<h4 class="hideshow"> Please Fill The Form As Instructed, Your Adress Should Be Surely correct, If Any Of The required Field Is Not Correcctly Filled Your Warranty Can be Cancelles</h4></h1>	
+		<div class="col-sm-6 top-25">
+			<form>
+			<br><br>
+			<input type="text" class="input"  placeholder="Your Name Here" id="name">
+			<br><br>
+			<br>
+			<input type="email" class="input" placeholder="Your Email Here" id="email">
+			<br><br>
+			<br>
+			<input type="text" class="input" placeholder="Type Problem Here" id="problem">
+			<br><br>
+			<br>
+			<textarea class="input" rows="2" placeholder="Write Problem Details Here" id="details"></textarea>
+		</form>
+		</div>
+		<div class="col-sm-6 top-25">
+			<form>
+			<br><br>
+			<input type="text" class="input"  placeholder="Product Service Voucher Number" id="sv">
+			<br><br>
+			<br>
+			<input type="email" class="input" placeholder="Product Name Here" id="Product">
+			<br><br>
+			<br>
+			<input type="text" class="input" placeholder="Product Warrenty Serial No." id="serial">
+			<br><br>
+			<br>
+			<textarea class="input" rows="2" placeholder="Your Complete Address" id="address"></textarea>
+		</form>
+		</div>
+		<form>
+			<p class="input sub">
+				<a href="Contact-us.html"><span class="glyphicon glyphicon-send sub"></span></a>&nbsp;&nbsp;
+				<a href="Contact-us.html" onClick="confirm('Are you Sure');"><span class="glyphicon glyphicon-remove sub1"></span></a>
+			</p>
+		</form>
+	</div>
+
+
+	<div id="foot" class="top-25"></div>
+<!--_______________________________________________________________________________________________________________________________________________________-->
+	<!--Scripts-->
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
