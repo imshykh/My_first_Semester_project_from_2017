@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*detail Page css*/
+/*_________________________________________________________________________________________________________*/
+
+body{
+	background-image: url(../images/45-degree-fabric-dark.png);
+	background-color: white;
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+}
+.bg-fabric{
+	background-image: url(../images/45-degree-fabric-dark.png);
+}
+.bg-cyan{
+	background-color: cyan;
+}
+.top-25{
+	margin-top: 25px;
+}
+.top-30{
+	margin-top: 30px;
+}
+
+.top-35{
+	margin-top: 35px; 
+}
+.img{
+	border-radius: 25px;
+	border: dotted 3px black;
+	box-shadow: 0 1px 10px rgba(00, 00, 00, 0.4);
+	filter: brightness(95%);
+	filter: opacity(80%);
+	filter: contrast(95%);
+}
+.box {
+	background:linear-gradient(45deg,rgb(255,255,255)80%, 30%,rgb(255,255,255)100%);
+	border: dotted 3px black;
+	padding:27px 20px;
+	border-radius: 25px;
+	box-shadow: 0 1px 10px rgba(00, 00, 00, 0.4);
+}	
+.box2{
+	background:linear-gradient(-45deg, #ebf1f6 0%,#ffffff 85%,white 100%);
+	border: dotted 3px black;
+	padding:27px 20px;
+	border-radius: 25px;
+	box-shadow: 0 1px 10px rgba(00, 00, 00, 0.4);
+}
+.price{
+	font-size: 30px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+.pannel-style{
+	padding: 0;
+	overflow: hidden;
+}
+.margin0auto{
+	margin: 0 auto;
+}
+.width100{
+	width: 100%;
+}
+.block-left-cadetblue{
+	border-left-color: #00ffff;
+}
+
+/*detail page css end*/
+/*__________________________________________________________________*/
+#footer {
+    background: #e0e0e0;
+    padding: 20px 0;
+}
+#copyright {
+    background: #000;
+    color: #ccc;
+    padding: 20px 0 8px 0;
+    font-size: 12px;
+}
+
+.grayScale{
+	filter: grayscale(100%);
+	
+	
+}
+.grayScale:hover{
+	filter: grayscale(0%);
+	transition-duration: 1s;
+	transform: rotate(360deg)  scale(1.5,1.5);
+}
+.padding0{
+	padding-left: 0px;
+}
+.top80{
+	margin-top: 80px;
+}
+.top55{
+	margin-top: 55px;
+}
+.navbar-btn {
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.font30{
+	font-size: 28px;
+}
+.color-btn{
+	color: #888888;
+}
+.color-btn:hover{
+	color: #ffffff;
+}
+.bdrright{
+	border-right:20px groove #ffffff;
+}
+
+
+/*_________________________________________________________________________*/
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.active1{
+	background-image: url(../images/45-degree-fabric-dark.png);
+	background-color:cyan;
+	color: white;
+	font-weight: 100 ;
+}
+.activeli{
+	list-style-type: square;
+	background:linear-gradient(-90deg,rgba(255,255,255,0),rgba(255,255,255,0),#06E2E2);
+}
+.catMain{
+	font-size: 18px;
+}
+/*___________________________________________________________________________________________*/
+
+.grow {
+	transition: all .2s ease-in-out;
+	margin: 20px;
+	
+
+}
+.grow:hover{ 
+	
+	transform: scale(1.1);}
+
+.techbox {
+	border: solid 1px #e6e6e6;
+	padding:27px 20px;
+	border-radius: 25px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+#test{
+    text-align:center;
+    font-family:serif;
+    color:white;
+    letter-spacing:2px;
+    font-size:50px;
+    text-shadow:3px 3px 5px Black;
+    padding:3px;
+}
+#ttt{
+    color:white;
+    text-align:center;
+    padding:5px;
+    border:2px Black;
+    font-family:serif;
+    }
+#all{
+    padding:5px;
+    border:3px dotted Black;
+    font-family:serif;
+    border-radius: 0px 30px 30px 0;
+	position: fixed;
+	bottom: 20px;
+	z-index: 12;
+	left: -10px;
+	opacity: 0.5;
+	background-image: url(../images/45-degree-fabric-dark.png);
+	background-color: rgba(74,95,98,0.70);
+	transition-duration: 0.5s;
+	animation-duration: 2s;
+	animation-name: time;
+}
+#all:hover{
+	opacity: 1;
+	left: -3px;
+	visibility: visible;
+}
+@keyframes time {
+	0%{left: -1000px;border-radius: 0px 30px 30px 0;opacity: 1; border:3px dotted Black;}
+	100%{left: -10px;border-radius: 0px 30px 30px 0;opacity: 0.5;border:3px dotted Black;}
+}
+
+.shake:hover{
+	animation-name: Shake;
+	animation-duration: 01s;
+}
+
+@keyframes Shake {
+	0%{}
+	80%{letter-spacing: 20px;}
+	1000%{}
+}
